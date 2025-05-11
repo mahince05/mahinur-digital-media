@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://mahince05.github.io/mahinur-digital-media/sitemap.xml
 
