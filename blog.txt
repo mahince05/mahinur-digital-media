@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog – Md. Mahinur Rahman</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: 40px auto; padding: 20px; background: white; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1 { text-align: center; color: #0057d9; }
+    .post { margin-bottom: 40px; }
+    .post h2 { color: #222; }
+    .post p { line-height: 1.6; }
+    .lang { font-style: italic; color: #555; font-size: 14px; }
+    footer { text-align: center; font-size: 14px; padding: 20px; background: #f0f0f0; color: #333; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Latest Blog Posts | সর্বশেষ ব্লগ</h1>
+
+    <div class="post">
+      <h2>How Facebook Ads Help Businesses Grow | ফেসবুক বিজ্ঞাপনে ব্যবসা কিভাবে বাড়ে</h2>
+      <p class="lang">English + বাংলা</p>
+      <p>
+        Facebook Ads is one of the most effective ways to reach your target audience. From lead generation to sales, a well-managed ad campaign can change your business. <br><br>
+        ফেসবুক অ্যাড একটি অসাধারণ উপায় আপনার ব্যবসার টার্গেট কাস্টমারদের কাছে পৌঁছানোর। সঠিকভাবে পরিচালিত বিজ্ঞাপন আপনার বিক্রি ও ব্র্যান্ডিংয়ে বড় পরিবর্তন আনতে পারে।
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>Top 5 SEO Tips for Beginners | নতুনদের জন্য ৫টি সেরা SEO টিপস</h2>
+      <p class="lang">English + বাংলা</p>
+      <p>
+        Start with keyword research, write quality content, and optimize your titles and meta descriptions. SEO is a long-term investment that brings organic traffic.<br><br>
+        কীওয়ার্ড রিসার্চ, মানসম্মত কনটেন্ট লেখা এবং টাইটেল ও মেটা ট্যাগ অপটিমাইজ করাই হল ভাল SEO এর শুরু। এটি ধীরে ধীরে আপনার ওয়েবসাইটে অর্গানিক ভিজিটর আনে।
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>Why Every Freelancer Should Use Fiverr & Upwork</h2>
+      <p class="lang">English</p>
+      <p>
+        Fiverr and Upwork are powerful freelancing platforms. Creating a strong profile, using the right keywords, and responding to clients quickly are key to success.
+      </p>
+    </div>
+
+    <div class="post">
+      <h2>Website Design Mistakes to Avoid | ওয়েব ডিজাইনে যেসব ভুল এড়িয়ে চলা উচিত</h2>
+      <p class="lang">English + বাংলা</p>
+      <p>
+        Slow loading speed, cluttered layout, and no mobile optimization can harm your conversions. Make your site fast, clean, and mobile-friendly.<br><br>
+        ওয়েবসাইট যদি ধীরে লোড হয়, ডিজাইন এলোমেলো হয় বা মোবাইলে ঠিকমতো না চলে—তাহলে কাস্টমার হারানোর সম্ভাবনা অনেক বেড়ে যায়।
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Md. Mahinur Rahman | Mahinur Digital Media
+  </footer>
+</body>
+</html>
