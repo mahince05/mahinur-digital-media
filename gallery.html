@@ -1,83 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery – Md. Mahinur Rahman</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      line-height: 1.6;
-    }
-    h1 {
-      color: #222;
-    }
-    .gallery-section {
-      margin-bottom: 40px;
-    }
-    .gallery-grid {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
-    .gallery-grid img {
-      width: 250px;
-      height: auto;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-    footer {
-      text-align: center;
-      margin-top: 50px;
-      font-size: 14px;
-      color: #888;
-    }
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; }
+    header, footer { background: #222; color: white; text-align: center; padding: 1em 0; }
+    .container { padding: 20px; max-width: 1200px; margin: auto; background: white; }
+    h2 { border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; margin-top: 15px; }
+    .gallery img { width: 100%; height: auto; border-radius: 8px; }
   </style>
 </head>
 <body>
-  <h1>Gallery – Md. Mahinur Rahman</h1>
-  <p>Welcome to the gallery showcasing photos and videos related to digital marketing projects, events, and media appearances by Md. Mahinur Rahman.</p>
+  <header>
+    <h1>Gallery – Md. Mahinur Rahman</h1>
+  </header>
+  <div class="container">
+    <p>Welcome to the gallery showcasing photos and videos related to digital marketing projects, events, and media appearances by Md. Mahinur Rahman.</p>
 
-  <div class="gallery-section">
     <h2>Featured Images</h2>
-    <div class="gallery-grid">
-      <img src="images/md-mahinur-rahman-facebook-photo.jpg" alt="Md. Mahinur Rahman Facebook Profile Photo" />
-      <img src="images/md-mahinur-rahman-facebook-photo-1.jpg" alt="Facebook Profile Photo 1" />
-      <img src="images/md-mahinur-rahman-facebook-photo-2.jpg" alt="Facebook Profile Photo 2" />
-      <img src="images/md-mahinur-rahman-facebook-photo-3.jpg" alt="Facebook Profile Photo 3" />
+    <div class="gallery">
+      <img src="images/md-mahinur-rahman-facebook-photo.jpg" alt="Md. Mahinur Rahman Facebook Profile Photo">
+      <img src="images/md-mahinur-rahman-facebook-photo-1.jpg" alt="Facebook Profile Photo 1">
+      <img src="images/md-mahinur-rahman-facebook-photo-2.jpg" alt="Facebook Profile Photo 2">
+      <img src="images/md-mahinur-rahman-facebook-photo-3.jpg" alt="Facebook Profile Photo 3">
     </div>
-  </div>
 
-  <div class="gallery-section">
     <h2>YouTube Thumbnails</h2>
-    <div class="gallery-grid">
-      <img src="images/mahinur-youtube-thumbnail.jpg" alt="YouTube Thumbnail by Md. Mahinur Rahman" />
+    <div class="gallery">
+      <img src="images/mahinur-youtube-thumbnail.jpg" alt="YouTube Thumbnail by Md. Mahinur Rahman">
     </div>
-  </div>
 
-  <div class="gallery-section">
     <h2>Marketing Banner & Logo</h2>
-    <div class="gallery-grid">
-      <img src="images/mahinur-youtube-banner-image.jpg" alt="YouTube Banner of Mahinur Digital Media" />
-      <img src="images/mahinur-youtube-logo.jpg" alt="YouTube Logo of Mahinur Digital Media" />
+    <div class="gallery">
+      <img src="images/mahinur-youtube-banner-image.jpg" alt="YouTube Banner of Mahinur Digital Media">
+      <img src="images/mahinur-youtube-logo.jpg" alt="YouTube Logo of Mahinur Digital Media">
     </div>
-  </div>
 
-  <div class="gallery-section">
     <h2>Business Cards & Fiverr Gigs</h2>
-    <div class="gallery-grid">
-      <img src="images/Business%20card%20back%20part-01.jpg" alt="Business Card Back Part Design" />
-      <img src="images/Fiver%20gig%20on%20business%20card%201.jpg" alt="Fiverr Gig Business Card Sample 1" />
-      <img src="images/Fiverr%20gig%20on%20business%20card%202.jpg" alt="Fiverr Gig Business Card Sample 2" />
-      <img src="images/Fiverr%20gig%20on%20Business%20card%203.jpg" alt="Fiverr Gig Business Card Sample 3" />
+    <div class="gallery">
+      <img src="images/business card back part-01.jpg" alt="Business Card Back Part Design">
+      <img src="images/fiver gig on business card 1.jpg" alt="Fiverr Gig Business Card Sample 1">
+      <img src="images/fiverr gig on business card 2.jpg" alt="Fiverr Gig Business Card Sample 2">
+      <img src="images/fiverr gig on Business card 3.jpg" alt="Fiverr Gig Business Card Sample 3">
     </div>
   </div>
-
-  <footer>© 2025 Md. Mahinur Rahman | All Rights Reserved</footer>
+  <footer>
+    <p>© 2025 Md. Mahinur Rahman | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
-
 
 
 
