@@ -1,80 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Md. Mahinur Rahman</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
 
-<h2>Gallery</h2>
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
 
-<style>
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-.image-box {
-  width: 300px;
-  text-align: center;
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.image-box img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-.image-box p {
-  margin-top: 10px;
-  font-weight: bold;
-}
-</style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
 
-<div class="gallery">
-  <div class="image-box">
-    <img src="images/mahinur-facebook-photo.jpg" alt="Facebook Ad Design">
-    <p>Facebook Ad Design</p>
+    .image-box {
+      background-color: white;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .image-box p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <div class="image-box">
+      <img src="images/mahinur-facebook-photo.jpg" alt="Facebook Ad Design">
+      <p>Facebook Ad Design</p>
+    </div>
+    <div class="image-box">
+      <img src="images/mahinur-fiverr-business-card.jpg" alt="Business Card Design">
+      <p>Business Card Design</p>
+    </div>
+    <div class="image-box">
+      <img src="images/mahinur-fiverr-gig-facebook-ads-manager.jpg" alt="Facebook Ads Manager Gig">
+      <p>Facebook Ads Manager Gig</p>
+    </div>
+    <div class="image-box">
+      <img src="images/md-mahinur-rahman-facebook-photo-1.jpg" alt="Marketing Image 1">
+      <p>Marketing Image 1</p>
+    </div>
+    <div class="image-box">
+      <img src="images/md-mahinur-rahman-facebook-photo-2.jpg" alt="Marketing Image 2">
+      <p>Marketing Image 2</p>
+    </div>
+    <div class="image-box">
+      <img src="images/md-mahinur-rahman-facebook-photo-3.jpg" alt="Marketing Image 3">
+      <p>Marketing Image 3</p>
+    </div>
+    <div class="image-box">
+      <img src="images/mahinur-youtube-banner-image.jpg" alt="YouTube Banner">
+      <p>YouTube Banner</p>
+    </div>
+    <div class="image-box">
+      <img src="images/mahinur-youtube-logo.jpg" alt="YouTube Logo">
+      <p>YouTube Logo</p>
+    </div>
+    <div class="image-box">
+      <img src="images/mahinur-youtube-thumbnail.jpg" alt="YouTube Thumbnail">
+      <p>YouTube Thumbnail</p>
+    </div>
   </div>
-
-  <div class="image-box">
-    <img src="images/mahinur-fiverr-business-card.jpg" alt="Business Card Design">
-    <p>Business Card Design</p>
-  </div>
-
-  <div class="image-box">
-    <img src="images/mahinur-fiverr-gig-facebook-ads-manager.jpg" alt="Facebook Ads Manager Gig">
-    <p>Facebook Ads Manager Gig</p>
-  </div>
-
-  <div class="image-box">
-    <img src="images/md-mahinur-rahman-facebook-photo-1.jpg" alt="Marketing Image 1">
-    <p>Marketing Image 1</p>
-  </div>
-
-  <div class="image-box">
-    <img src="images/md-mahinur-rahman-facebook-photo-2.jpg" alt="Marketing Image 2">
-    <p>Marketing Image 2</p>
-  </div>
-
-  <div class="image-box">
-    <img src="images/md-mahinur-rahman-facebook-photo-3.jpg" alt="Marketing Image 3">
-    <p>Marketing Image 3</p>
-  </div>
-
-  <div class="image-box">
-    <img src="images/mahinur-youtube-banner-image.jpg" alt="YouTube Banner">
-    <p>YouTube Banner</p>
-  </div>
-
-  <div class="image-box">
-    <img src="images/mahinur-youtube-logo.jpg" alt="YouTube Logo">
-    <p>YouTube Logo</p>
-  </div>
-
-  <div class="image-box">
-    <img src="images/mahinur-youtube-thumbnail.jpg" alt="YouTube Thumbnail">
-    <p>YouTube Thumbnail</p>
-  </div>
-</div>
+</body>
+</html>
 
 
 
