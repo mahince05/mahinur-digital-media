@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,15 +9,14 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background: #f9f9f9;
+      background: #f4f4f4;
     }
 
     h2 {
       text-align: center;
       padding: 20px;
-      background: #222;
+      background-color: #333;
       color: white;
-      margin: 0;
     }
 
     .gallery {
@@ -27,12 +27,12 @@
     }
 
     .image-box {
-      background: #fff;
+      background: white;
+      padding: 10px;
       border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      transition: 0.3s;
       text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
     }
 
     .image-box:hover {
@@ -40,14 +40,15 @@
     }
 
     .image-box img {
-      width: 100%;
+      max-width: 100%;
+      border-radius: 8px;
       height: auto;
-      display: block;
     }
 
     .image-box p {
-      padding: 10px;
-      font-weight: 500;
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 16px;
     }
   </style>
 </head>
