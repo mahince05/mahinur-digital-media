@@ -1,95 +1,57 @@
-
-<h2>Gallery</h2>
-
-<style>
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-
-  .image-box {
-    text-align: center;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-    background: #fff;
-  }
-
-  .image-box:hover {
-    transform: scale(1.05);
-  }
-
-  .image-box img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .image-box p {
-    margin: 10px;
-    font-weight: 500;
-    font-size: 14px;
-  }
-</style>
-
-<div class="gallery">
-  <div class="image-box">
-    <img src="images/mahinur-facebook-photo.jpg" alt="Facebook Ad Design">
-    <p>Facebook Ad Design</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md. Mahinur Rahman – Digital Marketing Expert | Gallery</title>
+  <meta name="description" content="Gallery of Md. Mahinur Rahman, Founder of Mahinur Digital Media. View images used on Facebook, YouTube, Fiverr, LinkedIn, and more.">
+  <meta name="keywords" content="Md Mahinur Rahman, Digital Marketing Expert, Facebook Ads, Fiverr, LinkedIn, SEO, Bangladesh">
+  <meta name="author" content="Md. Mahinur Rahman" />
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; margin: 0; padding: 0; }
+    .container { max-width: 1000px; margin: 40px auto; padding: 20px; background: #fff; }
+    h1 { text-align: center; color: #0057d9; margin-bottom: 30px; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .image-card { border: 1px solid #ddd; border-radius: 8px; padding: 10px; background: #fff; box-shadow: 0 2px 6px rgba(0,0,0,0.05); }
+    .image-card img { width: 100%; height: auto; border-radius: 5px; }
+    .caption { text-align: center; margin-top: 10px; font-size: 14px; color: #333; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Md. Mahinur Rahman – Photo Gallery | ছবির গ্যালারি</h1>
+    <div class="gallery">
+      <div class="image-card">
+        <img src="images/mahinur-facebook-photo.jpg" alt="Facebook Profile">
+        <div class="caption">Facebook Profile</div>
+      </div>
+      <div class="image-card">
+        <img src="images/mahinur-fiverr-business-card.jpg" alt="Fiverr Business Card">
+        <div class="caption">Fiverr Business Card</div>
+      </div>
+      <div class="image-card">
+        <img src="images/mahinur-fiverr-gig-facebook-ads-manager.jpg" alt="Fiverr Gig Facebook Ads">
+        <div class="caption">Fiverr Gig Facebook Ads</div>
+      </div>
+      <div class="image-card">
+        <img src="images/mahinur-linkedin-profile.jpg" alt="LinkedIn Profile">
+        <div class="caption">LinkedIn Profile</div>
+      </div>
+      <div class="image-card">
+        <img src="images/mahinur-youtube-banner-image.jpg" alt="YouTube Banner">
+        <div class="caption">YouTube Banner</div>
+      </div>
+      <div class="image-card">
+        <img src="images/mahinur-youtube-logo.jpg" alt="YouTube Logo">
+        <div class="caption">YouTube Logo</div>
+      </div>
+      <div class="image-card">
+        <img src="images/mahinur-youtube-thumbnail.jpg" alt="YouTube Thumbnail">
+        <div class="caption">YouTube Thumbnail</div>
+      </div>
+    </div>
   </div>
-  <div class="image-box">
-    <img src="images/mahinur-fiverr-business-card.jpg" alt="Business Card Design">
-    <p>Business Card Design</p>
-  </div>
-  <div class="image-box">
-    <img src="images/mahinur-fiverr-gig-facebook-ads-manager.jpg" alt="Facebook Ads Manager Gig">
-    <p>Facebook Ads Manager Gig</p>
-  </div>
-  <div class="image-box">
-    <img src="images/md-mahinur-rahman-facebook-photo-1.jpg" alt="Marketing Image 1">
-    <p>Marketing Image 1</p>
-  </div>
-  <div class="image-box">
-    <img src="images/md-mahinur-rahman-facebook-photo-2.jpg" alt="Marketing Image 2">
-    <p>Marketing Image 2</p>
-  </div>
-  <div class="image-box">
-    <img src="images/md-mahinur-rahman-facebook-photo-3.jpg" alt="Marketing Image 3">
-    <p>Marketing Image 3</p>
-  </div>
-  <div class="image-box">
-    <img src="images/mahinur-youtube-banner-image.jpg" alt="YouTube Banner">
-    <p>YouTube Banner</p>
-  </div>
-  <div class="image-box">
-    <img src="images/mahinur-youtube-logo.jpg" alt="YouTube Logo">
-    <p>YouTube Logo</p>
-  </div>
-  <div class="image-box">
-    <img src="images/mahinur-youtube-thumbnail.jpg" alt="YouTube Thumbnail">
-    <p>YouTube Thumbnail</p>
-  </div>
-  <div class="image-box">
-    <img src="images/md-mahinur-rahman.jpg" alt="Profile Image">
-    <p>Md. Mahinur Rahman</p>
-  </div>
-  <div class="image-box">
-    <img src="images/business-card-back-part-01.jpg" alt="Business Card Back">
-    <p>Business Card Back</p>
-  </div>
-  <div class="image-box">
-    <img src="images/fiverr-gig-business-card-1.jpg" alt="Fiverr Gig Card 1">
-    <p>Fiverr Gig Card 1</p>
-  </div>
-  <div class="image-box">
-    <img src="images/fiverr-gig-business-card-2.jpg" alt="Fiverr Gig Card 2">
-    <p>Fiverr Gig Card 2</p>
-  </div>
-</div>
-
+</body>
+</html>
 
 
